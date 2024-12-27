@@ -1,5 +1,6 @@
+import { FaAws } from "react-icons/fa";
 import { RiFirebaseFill, RiNextjsFill } from "react-icons/ri";
-import { SiJavascript, SiOpencv, SiReact, SiTypescript, SiUbuntu, SiUnity, SiVite } from "react-icons/si";
+import { SiApache, SiJavascript, SiNginx, SiOpencv, SiPhp, SiReact, SiTypescript, SiUbuntu, SiUnity, SiVite } from "react-icons/si";
 
 export type worksType = {
 
@@ -19,6 +20,21 @@ export type worksType = {
 export const works: { [key: string]: worksType[] } = {
     
     'Web': [
+        {
+            name: '【API】石川さゆりさんが紅白歌合戦で歌唱される楽曲名を返すAPI',
+            summary: '石川さゆりさんが紅白歌合戦で歌唱される楽曲名を推定し，返却するAPI',
+            detail: 'PHP，AWS，Nginx，Apacheの勉強として作成したAPIです．年末に合わせて紅白歌合戦をテーマに作成しました．',
+            url: 'http://api.ishikawasan.yzuemx.com/song/2024',
+            github: 'https://github.com/KanadeSisido/api_ishikawasan',
+            imagedir: 'images/unavailable.png',
+            codawari: [
+                'わかりやすいエンドポイント名を目指しました．',
+                '完全にRESTFulとは言いづらいので，改善の余地あり',
+            ],
+            stackIcon: [<SiPhp/>, <FaAws />, <SiNginx />, <SiApache />],
+            stack: [],
+            tags: ['API', 'PHP', 'AWS'],
+        },
         {
             name: 'TEX-NEXT[Edit]',
             summary: 'だれでも簡単にロボット・プログラミングを体験できる，ブロックベースのコードエディタ',
@@ -91,9 +107,9 @@ export const works: { [key: string]: worksType[] } = {
             github: '',
             imagedir: 'images/ros2controller.png',
             codawari: [
-                'UIにMUI(Material UI)を採用，カラーとアイコンにより，直感的なデザインに',
-                'ドラッグ・アンド・ドロップで，誰でも簡単にコードが組み立てられる',
-                '別プロジェクト「TEX-NEXT[Compile]」と互換性あり，実際のロボットのコードにコンパイル可能',
+                '先進性を演出するデザイン',
+                'ゲームコントローラー（GameSir）との互換性あり',
+                '誤操作を最小限に抑えるよう設計されたボタン配置',
             ],
             stackIcon: [<SiUnity />,<SiUbuntu />],
             stack: [],
