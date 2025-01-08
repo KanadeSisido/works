@@ -69,7 +69,7 @@ const PopUp = ({work, close} : {work : worksType, close : (value: React.SetState
             {/* detail */}
             <div className='p-6 md:pl-10 my-10'>
                 <motion.div className='text-white jost-300 tracking-wider text-2xl md:text-3xl mb-5' initial={{ y: 10, opacity: 0 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, ease: "easeInOut", delay: 0.3}} viewport={{once: true, amount: 0.2}}>DETAIL <div className='h-1 w-10 bg-teal-500 rounded-md mt-1'></div></motion.div>
-                <motion.div className='text-slate-200 noto-sans-jp-300' initial={{ y: 10, opacity: 0 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, ease: "easeInOut", delay: 0.4}} viewport={{once: true, amount: 0.2}}>{work.detail}</motion.div>
+                <motion.div className='text-slate-200 noto-sans-jp-300 whitespace-pre-wrap' initial={{ y: 10, opacity: 0 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, ease: "easeInOut", delay: 0.4}} viewport={{once: true, amount: 0.2}}>{work.detail}</motion.div>
             </div>
             
             {/* kodawari */}

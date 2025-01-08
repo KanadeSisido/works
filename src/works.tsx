@@ -21,12 +21,29 @@ export const works: { [key: string]: worksType[] } = {
     
     'Web': [
         {
-            name: '【API】石川さゆりさんが紅白歌合戦で歌唱される楽曲名を返すAPI',
+            name: 'ame:ato',
+            summary: '曇った窓に文字を描くような掲示板サイト',
+            detail: '時間経過とともに消えていく文字に人の存在を感じられるような，心にしか残らない記録が人を励ますような，掲示板サイトを目指しました．\n技術スタックは，バックエンドにLaravel(PHP)，フロントエンドにReact+Vite+TypeScriptを利用しています．\nデプロイでは，AWS EC2, S3，Cloud Frontを利用し，ACM，Let\'s Encryptを用いてhttps通信に対応，高速かつ信頼性の高いサービスを目指しました．',
+            url: 'https://ameato.yzuemx.com',
+            github: '',
+            imagedir: 'images/ameato.png',
+            codawari: [
+                'AWS EC2，S3を利用し，信頼性が高いサービスに',
+                'APIを利用したSPA',
+                'PHPUnitを用いてテストを自動化',
+                
+            ],
+            stackIcon: [<SiPhp/>, <FaAws />, <SiNginx />, <SiReact />],
+            stack: [],
+            tags: ['PHP', 'Vite', 'TypeScript', 'MySQL'],
+        },
+        {
+            name: '【API】石川さゆりさんが紅白歌合戦で歌唱される楽曲名を返すAPI（配信終了）',
             summary: '石川さゆりさんが紅白歌合戦で歌唱される楽曲名を推定し，返却するAPI',
-            detail: 'PHP，AWS，Nginx，Apacheの勉強として作成したAPIです．年末に合わせて紅白歌合戦をテーマに作成しました．',
-            url: 'http://api.ishikawasan.yzuemx.com/song/2024',
+            detail: 'PHP，AWS，Nginx，Apacheの勉強として作成したAPIです．年末に合わせて紅白歌合戦をテーマに作成しました．（配信終了）',
+            url: '',
             github: 'https://github.com/KanadeSisido/api_ishikawasan',
-            imagedir: 'images/unavailable.png',
+            imagedir: 'images/isikawasanapi.jpg',
             codawari: [
                 'わかりやすいエンドポイント名を目指しました．',
                 '完全にRESTFulとは言いづらいので，改善の余地あり',

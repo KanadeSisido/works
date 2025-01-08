@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "releaseBuild" : "vite build && cp -r ./dist/* ./docs",
+    "git": "git add . && git commit -m \"auto upload\" && git push origin main"
   },
   "dependencies": {
     "motion": "^11.15.0",

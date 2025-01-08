@@ -92,7 +92,7 @@ function App() {
 
       <footer className="flex w-full h-20 mt-28 p-4 justify-center bg-slate-600 border-t border-gray-500 bottom-0">
         <div className="text-slate-400 jost-400">
-          Kanade Sisido 2024
+          Kanade Sisido 2024 - 2025
         </div>
       </footer>
 
