@@ -3,6 +3,9 @@ import { worksType } from "../works"
 import { FaGithub, FaLink } from "react-icons/fa";
 import { motion } from "framer-motion";
 
+// <!-- Font Awesome Free by @fontawesome - https://fontawesome.com -->
+
+
 const WorkCard = ({work, onClick} : {work : worksType, onClick : (value: React.SetStateAction<worksType | null | undefined>) => void}) => {
   return (
     <motion.div onClick={() => onClick(work)} whileHover={{ scale: 1.03 }} className="flex flex-col sm:flex-row w-full max-w-[740px] sm:h-72 bg-slate-600 hover:bg-slate-500/70 rounded-lg transition border border-slate-500">

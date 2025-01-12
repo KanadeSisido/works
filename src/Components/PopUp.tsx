@@ -5,6 +5,8 @@ import { FaGithub, FaLink } from 'react-icons/fa';
 import { motion } from "framer-motion"
 import { SlArrowDown } from 'react-icons/sl';
 
+// <!-- Font Awesome Free by @fontawesome - https://fontawesome.com -->
+
 
 const PopUp = ({work, close} : {work : worksType, close : (value: React.SetStateAction<worksType | null | undefined>) => void}) => {
   return (

@@ -2,6 +2,11 @@ import { FaAws } from "react-icons/fa";
 import { RiFirebaseFill, RiNextjsFill } from "react-icons/ri";
 import { SiApache, SiJavascript, SiNginx, SiOpencv, SiPhp, SiReact, SiTypescript, SiUbuntu, SiUnity, SiVite } from "react-icons/si";
 
+// <!-- Font Awesome Free by @fontawesome - https://fontawesome.com -->
+// <!-- Remix Icon based on the Apache License Version 2.0 license - https://github.com/Remix-Design/remixicon/blob/master/License -->
+
+
+
 export type worksType = {
 
     name: string;
