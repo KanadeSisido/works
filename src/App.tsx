@@ -47,7 +47,7 @@ function App() {
       </a>
       <div className="flex flex-col ml-8 lg:ml-12 mt-16 mb-32 self-start">
         <div className="text-white text-6xl tracking-wider jost-200 md:text-7xl">Works</div>
-        <div className="ml-1 mt-2 text-gray-400 text-2xl tracking-wider jost-200 sm:text-3xl">Created by Kanade Sisido</div>
+        <div className="ml-1 mt-2 text-gray-400 text-2xl tracking-wider jost-200 sm:text-xl">Created by Kanade Sisido (Riku Takayasu)</div>
       </div>
 
       <div className="self-center my-3 jost-300 text-slate-400">― MENU ―</div>
@@ -92,7 +92,7 @@ function App() {
 
       <footer className="flex w-full h-20 mt-28 p-4 justify-center bg-slate-600 border-t border-gray-500 bottom-0">
         <div className="text-slate-400 jost-400">
-          Kanade Sisido 2024 - 2025
+          Kanade Sisido (Riku Takayasu) 2024 - 2025
         </div>
       </footer>
 
