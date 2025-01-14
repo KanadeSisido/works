@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 import { SlArrowDown } from 'react-icons/sl';
 
 // <!-- Font Awesome Free by @fontawesome - https://fontawesome.com -->
-
+// Simple Line Icons MIT License https://thesabbir.github.io/simple-line-icons/ , https://opensource.org/license/mit
 
 const PopUp = ({work, close} : {work : worksType, close : (value: React.SetStateAction<worksType | null | undefined>) => void}) => {
   return (
