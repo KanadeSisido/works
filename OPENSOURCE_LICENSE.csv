@@ -183,7 +183,7 @@
 "punycode@2.3.1","MIT","https://github.com/mathiasbynens/punycode.js"
 "queue-microtask@1.2.3","MIT","https://github.com/feross/queue-microtask"
 "react-dom@18.3.1","MIT","https://github.com/facebook/react"
-"react-icons@5.4.0","MIT","https://github.com/react-icons/react-icons"
+"react-icons@5.5.0","MIT","https://github.com/react-icons/react-icons"
 "react@18.3.1","MIT","https://github.com/facebook/react"
 "read-cache@1.0.0","MIT","https://github.com/TrySound/read-cache"
 "readdirp@3.6.0","MIT","https://github.com/paulmillr/readdirp"
