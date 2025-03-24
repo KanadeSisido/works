@@ -1,0 +1,23 @@
+Apache License 2.0
+http://www.apache.org/licenses/LICENSE-2.0  
+
+ISC License
+https://licenses.opensource.jp/ISC/ISC.html
+
+BSD-2-Clause License
+https://licenses.opensource.jp/BSD-2-Clause/BSD-2-Clause.html
+
+BSD-3-Clause License
+https://opensource.org/license/bsd-3-clause
+
+BlueOak-1.0.0 License
+https://blueoakcouncil.org/license/1.0.0
+
+Python-2.0 License
+https://www.python.org/download/releases/2.0/license/
+
+CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/deed.ja
+
+0BSD
+https://licenses.opensource.jp/0BSD/0BSD.html
