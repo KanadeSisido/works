@@ -13,6 +13,22 @@ export type worksType = {
 export const works: { [key: string]: worksType[] } = {
 	Web: [
 		{
+			name: "「Unity勉強会 – クロームくんを動かそう！ –」サポートページ",
+			summary: "GDGoC TMU Unity勉強会サポートサイト",
+			detail:
+				"Unityの勉強をより楽しくできるように制作した勉強会のサポートページです．GASベースで超低コストかつ簡単に管理できるため，長期保存に適しています．",
+			url: "https://gdsc-tmu.github.io/event5-unity/",
+			github: "",
+			imagedir: "images/unity_benkyoukai.png",
+			codawari: [
+				"GASと連携，低コスト",
+				"MUIを用いたわかりやすいデザイン",
+				"GoogleFormを用いて簡単投稿",
+			],
+			stack: [],
+			tags: ["React", "Vite", "TypeScript", "Google_Apps_Script"],
+		},
+		{
 			name: "ame:ato",
 			summary: "曇った窓に文字を描くような掲示板サイト",
 			detail:
@@ -147,7 +163,22 @@ export const works: { [key: string]: worksType[] } = {
 			imagedir: "images/unavailable.png",
 			codawari: ["優秀賞をいただきました（ありがとうございます）"],
 			stack: [],
-			tags: ["GDG_TMU", "TypeScript", "ビブリオバトル"],
+			tags: ["GDGoc_TMU", "TypeScript", "ビブリオバトル"],
+		},
+		{
+			name: "GDGoC Japan 合同新歓「HTML+CSSハンズオン資料」",
+			summary: "GDGoC Japan 合同新歓のハンズオン資料です．",
+			detail:
+				"Google渋谷オフィスで行われたGDGoC Japan 合同新歓のハンズオン資料です．",
+			url: "https://kanadesisido.github.io/welcome-gdgoc-2025/site/01/index.html",
+			github: "",
+			imagedir: "images/unavailable.png",
+			codawari: [
+				"はじめて学ぶ方にもわかりやすい資料を目指しました",
+				"生成AIを活用したコーディングにも触れています"
+			],
+			stack: [],
+			tags: ["GDGoC”],
 		},
 	],
 };
