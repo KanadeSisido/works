@@ -19,7 +19,7 @@ export const works: { [key: string]: worksType[] } = {
 				"Unityの勉強をより楽しくできるように制作した勉強会のサポートページです．GASベースで超低コストかつ簡単に管理できるため，長期保存に適しています．",
 			url: "https://gdsc-tmu.github.io/event5-unity/",
 			github: "",
-			imagedir: "images/unity_benkyoukai.png",
+			imagedir: "images/unitybenkyoukai.png",
 			codawari: [
 				"GASと連携，低コスト",
 				"MUIを用いたわかりやすいデザイン",
