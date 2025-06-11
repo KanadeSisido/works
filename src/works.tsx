@@ -175,10 +175,10 @@ export const works: { [key: string]: worksType[] } = {
 			imagedir: "images/unavailable.png",
 			codawari: [
 				"はじめて学ぶ方にもわかりやすい資料を目指しました",
-				"生成AIを活用したコーディングにも触れています"
+				"生成AIを活用したコーディングにも触れています",
 			],
 			stack: [],
-			tags: ["GDGoC”],
+			tags: ["GDGoC"],
 		},
 	],
 };
