@@ -13,12 +13,27 @@ export type worksType = {
 export const works: { [key: string]: worksType[] } = {
 	Web: [
 		{
+			name: "blog",
+			summary: "Kanade - シンプルな個人blog",
+			detail:
+				"シンプルな個人ブログサイトです．Next.js + microCMSを利用しています．",
+			url: "https://blog.kanade.sisido.dev",
+			github: "https://github.com/KanadeSisido/blog",
+			imagedir: "images/blog.png",
+			codawari: [
+				"Next.js(AppRouter)使用",
+				"shadcn/uiを用いたシンプルなデザイン",
+			],
+			stack: [],
+			tags: ["Next.js", "shadcn/ui", "TypeScript"],
+		},
+		{
 			name: "「Unity勉強会 – クロームくんを動かそう！ –」サポートページ",
 			summary: "GDGoC TMU Unity勉強会サポートサイト",
 			detail:
 				"Unityの勉強をより楽しくできるように制作した勉強会のサポートページです．GASベースで超低コストかつ簡単に管理できるため，長期保存に適しています．",
 			url: "https://gdsc-tmu.github.io/event5-unity/",
-			github: "",
+			github: "https://github.com/gdsc-tmu/event5-unity/tree/kanade-dev",
 			imagedir: "images/unitybenkyoukai.png",
 			codawari: [
 				"GASと連携，低コスト",
